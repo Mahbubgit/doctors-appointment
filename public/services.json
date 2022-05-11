@@ -1,0 +1,68 @@
+[
+    {
+        "id": 1,
+        "name": "Therapy1", 
+        "price": "15000", 
+        "description": "Lorem", 
+        "img": "https://i.ibb.co/NrwLqvG/therapy1.png"
+    },
+    {
+        "id": 2,
+        "name": "Therapy2", 
+        "price": "15000", 
+        "description": "Lorem", 
+        "img": "https://i.ibb.co/wSDfy94/therapy2.png"
+    },
+    {
+        "id": 3,
+        "name": "Therapy3", 
+        "price": "15000", 
+        "description": "Lorem", 
+        "img": "https://i.ibb.co/XtyPN3p/therapy3.png"
+    },
+    {
+        "id": 4,
+        "name": "Surgery1", 
+        "price": "55000", 
+        "description": "Lorem", 
+        "img": "https://i.ibb.co/z61gW38/surgery1.png"
+    },
+    {
+        "id": 5,
+        "name": "Surgery2", 
+        "price": "55000", 
+        "description": "Lorem", 
+        "img": "https://i.ibb.co/zSz8Nbg/surgery2.png"
+    },
+    {
+        "id": 6,
+        "name": "Surgery3", 
+        "price": "55000", 
+        "description": "Lorem", 
+        "img": "https://i.ibb.co/mXjL2f6/surgery3.png"
+    },
+    
+    {
+        "id": 7,
+        "name": "ValveImplant1", 
+        "price": "70000", 
+        "description": "Lorem", 
+        "img": "https://i.ibb.co/Z1ZW7KP/Valve-Implant1.png"
+    },
+    
+    {
+        "id": 8,
+        "name": "ValveImplant2", 
+        "price": "70000", 
+        "description": "Lorem", 
+        "img": "https://i.ibb.co/94wrpR9/Valve-Implant2.png"
+    },
+    
+    {
+        "id": 9,
+        "name": "ValveImplant3", 
+        "price": "75000", 
+        "description": "Lorem", 
+        "img": "https://i.ibb.co/6gq11bC/Valve-Implant3.png"
+    }
+]
