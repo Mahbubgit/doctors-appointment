@@ -1,0 +1,39 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    margin: 0 5px;
+}
+
+.navMenu {
+    display: flex;
+    justify-content: space-between;
+    font-size: larger;
+    font-weight: bold;
+    padding: 0 40px;
+    overflow: hidden;
+    border-bottom: 3px solid transparent;
+}
+
+.navMenu a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 10px 20px;
+    border-bottom: 3px solid;
+}
+
+.navMenu a:hover {
+    background-color: rgb(6, 157, 251);
+    color: white;
+}
+
+nav a {
+    margin-right: 20px;
+}
+

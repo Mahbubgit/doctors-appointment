@@ -1,10 +1,10 @@
 import React from 'react';
-import Services from '../Services/Services';
+import Specialists from '../Specialists/Specialists';
 
 const Home = () => {
     return (
         <div>
-            <Services></Services>
+            <Specialists></Specialists>
         </div>
     );
 };
