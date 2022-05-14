@@ -1,12 +1,12 @@
 import React from 'react';
 import Banner from '../Banner/Banner';
-import Specialists from '../Specialists/Specialists';
+// import Specialists from '../Specialists/Specialists';
 
 const Home = () => {
     return (
         <div>
             <Banner></Banner>
-            <Specialists></Specialists>
+            {/* <Specialists></Specialists> */}
         </div>
     );
 };

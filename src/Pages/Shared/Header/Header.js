@@ -9,7 +9,7 @@ const Header = () => {
             <nav className='navMenu'>
                 <CustomLink to={'/home'} active >Home</CustomLink>
                 <CustomLink to={'/about'}>About</CustomLink>
-                <CustomLink to={'/blog'}>Blog</CustomLink>
+                <CustomLink to={'/blogs'}>Blogs</CustomLink>
                 <CustomLink to={'/services'}>Services</CustomLink>
                 <CustomLink to={'/faq'}>FAQ</CustomLink>
                 <CustomLink to={'/article'}>E-Article</CustomLink>
