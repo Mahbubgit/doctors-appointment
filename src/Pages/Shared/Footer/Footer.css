@@ -1,0 +1,16 @@
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+}
+.footer-container p{
+    margin-top: 10px;
+}
+.footer-container img{
+    height: 20px;
+    width: 20px;
+    margin: 0 10px 0 5px;
+}
