@@ -8,6 +8,7 @@ import FAQ from './Pages/FAQ/FAQ';
 import Home from './Pages/Home/Home/Home';
 import Services from './Pages/Home/Services/Services';
 import Login from './Pages/Login/Login/Login';
+import NotFound from './Pages/NotFound/NotFound';
 import Footer from './Pages/Shared/Footer/Footer';
 import Header from './Pages/Shared/Header/Header';
 
@@ -21,10 +22,11 @@ function App() {
         <Route path='/about' element={<About></About>}></Route>
         <Route path='/blogs' element={<Blogs></Blogs>}></Route>
         <Route path='/services' element={<Services></Services>}></Route>
+        <Route path='/service/:serviceId' element={<Appointment></Appointment>}></Route>
         <Route path='/article' element={<EArticle></EArticle>}></Route>
         <Route path='/faq' element={<FAQ></FAQ>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
-        <Route path='/appointment' element={<Appointment></Appointment>}></Route>
+        <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
       <Footer></Footer>
     </div>

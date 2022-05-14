@@ -24,57 +24,43 @@ const Services = () => {
                 className="mb-3"
             >
                 <Tab eventKey="therapy" title="Therapy">
-                   <h3 className='text-center'>Therapy</h3> 
+                    <h3 className='text-center'>Therapy</h3>
                     <div className='services'>
                         {
                             services.map(service => <Service
                                 key={service.id}
                                 service={service}
-                                keyTherapy={key}
+                                serviceKey={key}
                             ></Service>)
                         }
                     </div>
-
                 </Tab>
                 <Tab eventKey="surgery" title="Surgery">
-                <h3 className='text-center'>Surgery</h3> 
+                    <h3 className='text-center'>Surgery</h3>
                     <div className='services'>
                         {
                             services.map(service => <Service
                                 key={service.id}
                                 service={service}
-                                keyTherapy={key}
+                                serviceKey={key}
                             ></Service>)
                         }
                     </div>
                 </Tab>
                 <Tab eventKey="valveImplant" title="Valve Implant">
-                <h3 className='text-center'>Valve Implant</h3> 
+                    <h3 className='text-center'>Valve Implant</h3>
                     <div className='services'>
                         {
                             services.map(service => <Service
                                 key={service.id}
                                 service={service}
-                                keyTherapy={key}
+                                serviceKey={key}
                             ></Service>)
                         }
                     </div>
                 </Tab>
             </Tabs>
         </div>
-
-        //--------------------Previous------------------------------------
-        // <div>
-        //     <h1 className='services-title'>Our Services or Treatment Facilities</h1>
-        //     <div className='services'>
-        //         {
-        //             services.map(service => <Service
-        //                 key={service.id}
-        //                 service={service}
-        //             ></Service>)
-        //         }
-        //     </div>
-        // </div>
     );
 };
 

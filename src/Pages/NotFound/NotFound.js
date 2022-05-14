@@ -1,10 +1,15 @@
 import React from 'react';
-
+import { useNavigate } from 'react-router-dom';
+import PageNotFound from '../../images/404.png';
 const NotFound = () => {
+    const navigate = useNavigate();
+    const handleToHomePage = () =>{
+        navigate(`/home`);
+    }
     return (
-        <div>
-            <h2>The page you are looking for is not found.</h2>
-            <h4>404</h4>
+        <div className='text-center'>
+            <img src={PageNotFound} alt="" />
+            <button onClick={()=>handleToHomePage()} className='btn btn-primary'>Back to Doctor's Appointment</button>
         </div>
     );
 };
