@@ -4,6 +4,7 @@ import { Link, useLocation, useNavigate } from 'react-router-dom';
 import './Login.css';
 import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import auth from '../../../firebase.init';
+import SocialLogin from '../SocialLogin/SocialLogin';
 
 const Login = () => {
     const [
@@ -56,6 +57,7 @@ const Login = () => {
                 New to Doctor's Appointment?
                 <Link to={'/register'} className='text-primary pe-auto text-decoration-none ms-2' onClick={navigateRegister}>Register Now</Link>
             </p>
+            <SocialLogin></SocialLogin>
         </div>
     );
 };
