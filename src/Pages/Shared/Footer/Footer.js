@@ -8,9 +8,9 @@ const Footer = () => {
 
     return (
         <footer className='footer-container'>
-            <p><small>Copyright</small></p>
             <img src={copyright} alt="" />
-            <p><small>{year}</small></p>
+            <p><small>Copyright</small></p>
+            <p className='ms-2'><small>{year} - Doctor's Appointment</small></p>
         </footer>
     );
 };

@@ -19,7 +19,7 @@ const Appointment = () => {
 
     }
     return (
-        <div className='container w-50 mx-auto'>
+        <div className='container w-50 mx-auto' style={{height: "600px"}}>
             <h2 className='text-primary text-center mt-3'>Book For Appointment- {serviceId}</h2>
             <Form onSubmit={handleAppointment}>
                 <Form.Group className="mb-3" controlId="formBasicName">

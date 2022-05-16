@@ -2,7 +2,7 @@ import React from 'react';
 
 const CheckOut = () => {
     return (
-        <div className='container text-center'>
+        <div className='container text-center' style={{height: "600px"}}>
             <h2>Please checkout your appointment</h2>
             <table>
                 <thead>
