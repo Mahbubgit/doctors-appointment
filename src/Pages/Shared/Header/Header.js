@@ -10,7 +10,7 @@ import { signOut } from 'firebase/auth';
 
 const Header = () => {
     const [user] = useAuthState(auth);
-
+    
     const handleSignOut = () => {
         signOut(auth);
     }
@@ -32,7 +32,6 @@ const Header = () => {
                         <CustomLink to={'/services'}>Services</CustomLink>
                         <CustomLink to={'/faq'}>FAQ</CustomLink>
                         <CustomLink to={'/article'}>E-Article</CustomLink>
-
                         {
                             user ?
                                 <CustomLink to={'/login'} onClick={handleSignOut} className='text-white bg-danger'>Sign Out</CustomLink>

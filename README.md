@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# Doctor's Appointment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Project Link
+ [Appointment with your doctor from your home](https://doctors-appointment-bc374.firebaseapp.com/login)
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+Welcome to Doctor's Appointment! This is a doctor's personal website where every patient of the doctor can be take appointment from home by online. Doctor advised the patient what have to be done instantly. Some features are described bellow:
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<ul>
+    <li>
+        Header menu contains Home, About, Blogs, Services, FAQ, E-Article and Login menu.
+    </li>
+    <li>
+        Home page display 3 types of services that can be get a patient from his/her doctor. It includes a beautiful dynamic header, banner, service section and footer.
+    </li>
+    <li>
+        About page is related to developer of this site. In this page, developer name and photo will be appear. Also short description of developer's future plan will be shown here and describe how will he/she achieve the goal.
+    </li>
+    <li>
+        Blogs page contains 3 questions and their answers.
+    </li>
+    <li>
+        Services page contains 3 types of services into 3 tabs named Therapy, Surgery and Valve Implant. Each tab contains 3 images related to that service.
+    </li>
+    <li>
+        FAQ (Frequently Asked Question) page contains 4 questions and answers related to the site.
+    </li>
+    <li>
+        E-Article page contains 2 articles with description.
+    </li>
+    <li>
+        Login page for authorized user who want to get services from this site.
+    </li>
+    <li>
+        User can also login by social login features like google or github to access this site.
+    </li>
+    <li>
+        This site is build using React Bootstrap, Firebase Authentication and React Firebase Hooks.
+    </li>
+</ul>
