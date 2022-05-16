@@ -3,21 +3,21 @@
         "id": 1,
         "name": "Therapy: Manual Therapy",
         "price": "15000",
-        "description": "Provide top quality physical therapy care to individuals of all age groups",
+        "description": "Provide top quality physical therapy care to individuals of all age groups. Provide education so that you can know how to reduce the risk of recurrence",
         "img": "https://i.ibb.co/NrwLqvG/therapy1.png"
     },
     {
         "id": 2,
-        "name": "Therapy: Electrotherapy or Electric Stimulation",
+        "name": "Therapy: Electrotherapy",
         "price": "20000",
-        "description": "Provide education so that you can know how to reduce the risk of recurrence",
+        "description": "Provide education so that you can know how to reduce the risk of recurrence. Provide top quality physical therapy care to individuals of all age groups.",
         "img": "https://i.ibb.co/wSDfy94/therapy2.png"
     },
     {
         "id": 3,
         "name": "Therapy: Hot and Cold Therapy",
         "price": "25000",
-        "description": "Provide top quality physical therapy care to individuals of all age groups",
+        "description": "Provide top quality physical therapy care to individuals of all age groups. Provide education so that you can know how to reduce the risk of recurrence",
         "img": "https://i.ibb.co/XtyPN3p/therapy3.png"
     },
     {
@@ -38,28 +38,28 @@
         "id": 6,
         "name": "Surgical Operation: Coronary artery bypass",
         "price": "75000",
-        "description": "Minor surgeries are generally superficial and do not require penetration of a body cavity.",
+        "description": "Minor surgeries are generally superficial and do not require penetration of a body cavity. Minor surgeries are generally superficial and do not require penetration of a body cavity.",
         "img": "https://i.ibb.co/mXjL2f6/surgery3.png"
     },
     {
         "id": 7,
         "name": "Valve Implant: Aortic valve",
         "price": "70000",
-        "description": "Aortic valve repair and aortic valve replacement",
+        "description": "Aortic valve repair and aortic valve replacement are procedures that treat diseases affecting the aortic valve, one of four valves that control blood flow through the heart.",
         "img": "https://i.ibb.co/Z1ZW7KP/Valve-Implant1.png"
     },
     {
         "id": 8,
         "name": "Valve Implant: Aortic valve repair",
         "price": "70000",
-        "description": "4 Ways Your Heart Can Get in Trouble.",
+        "description": "4 Ways Your Heart Can Get in Trouble.Aortic valve repair and aortic valve replacement are procedures that treat diseases affecting the aortic valve, one of four valves that control blood flow through the heart.",
         "img": "https://i.ibb.co/94wrpR9/Valve-Implant2.png"
     },
     {
         "id": 9,
         "name": "Valve Implant: Aortic valve replacement",
         "price": "75000",
-        "description": "Aortic valve repair and aortic valve replacement are procedures that treat diseases affecting the aortic valve, one of four valves that control blood flow through the heart",
+        "description": "Aortic valve repair and aortic valve replacement are procedures that treat diseases affecting the aortic valve, one of four valves that control blood flow through the heart.",
         "img": "https://i.ibb.co/6gq11bC/Valve-Implant3.png"
     }
 ]

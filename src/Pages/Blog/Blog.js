@@ -8,7 +8,7 @@ const Blog = () => {
     const [openQuestion2, setOpenQuestion2] = useState(false);
     const [openQuestion3, setOpenQuestion3] = useState(false);
     return (
-        <>
+        <div className='blog-container'>
             <Button
                 onClick={() => setOpenQuestion1(!openQuestion1)}
                 aria-controls="collapse-text"
@@ -135,7 +135,7 @@ const Blog = () => {
                     </div>
                 </Collapse>
             </div>
-        </>
+        </div>
     );
 };
 

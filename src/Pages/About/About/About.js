@@ -1,9 +1,10 @@
 import React from 'react';
 import photo from '../../../images/Picture.jpg';
+import './About.css';
 
 const About = () => {
     return (
-        <div className='w-75 mx-auto'>
+        <div className='about-container'>
             <table>
                 <thead>
                     <tr>
@@ -11,7 +12,7 @@ const About = () => {
                             I'm S.M. Mahbubur Rahman.
                         </td>
                         <td>
-                            <img className='w-50 h-50 mx-auto' src={photo} alt="" />
+                            <img className='about-img' src={photo} alt="" />
                         </td>
                     </tr>
                 </thead>
@@ -27,7 +28,6 @@ const About = () => {
                     </td>
                 </tr>
             </table>
-
         </div>
     );
 };

@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState } from "react";
 import { Button, Collapse } from "react-bootstrap";
+import './FAQ.css';
 
 const FAQ = () => {
     const [faq1, setFaq1] = useState(false);
@@ -9,7 +10,7 @@ const FAQ = () => {
     const [faq4, setFaq4] = useState(false);
 
     return (
-        <>
+        <div className='faq-container'>
             <Button
                 onClick={() => setFaq1(!faq1)}
                 aria-controls="collapse-text"
@@ -100,7 +101,7 @@ const FAQ = () => {
                     </div>
                 </Collapse>
             </div>
-        </>
+        </div>
     );
 };
 

@@ -51,7 +51,7 @@ const Register = () => {
         // console.error(errorElement);
     }
     return (
-        <div className='container w-50 mx-auto'>
+        <div className='register-container w-50 mx-auto'>
             <h2 className='text-primary text-center mt-3'>Please Register</h2>
             <Form onSubmit={handleRegister}>
                 <Form.Group className="mb-3" controlId="formBasicName">

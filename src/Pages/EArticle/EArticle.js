@@ -6,7 +6,7 @@ const EArticle = () => {
     const [article2, setArticle2] = useState(false);
 
     return (
-        <>
+        <div style={{height: "600px"}}>
             <Button
                 onClick={() => setArticle1(!article1)}
                 aria-controls="collapse-text"
@@ -50,7 +50,7 @@ const EArticle = () => {
                     </div>
                 </Collapse>
             </div>
-        </>
+        </div>
     );
 };
 

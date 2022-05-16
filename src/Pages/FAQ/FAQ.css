@@ -1,0 +1,16 @@
+.faq-container{
+    height: 680px;
+}
+
+@media only screen and (max-width: 576px) {
+    .faq-container{
+        height: 100%;
+    }
+    
+}
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+    .faq-container{
+        height: 100%;
+    }
+    
+}
